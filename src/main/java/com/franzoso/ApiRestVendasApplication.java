@@ -25,10 +25,10 @@ public class ApiRestVendasApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
      
-		Pagamento p1 = new Pagamento(null, 10, 2500.00);
-		Produto pr1 = new Produto(null, "notbook",25000.00);
-		pagamentooRepository.save(p1);
-		produtoRepository.save(pr1);
+		Pagamento p1 = new Pagamento(null, 10, 5500.00);
+		Produto pr1 = new Produto(null, "carro",55000.00);
+		//pagamentooRepository.save(p1);
+		//produtoRepository.save(pr1);
 		
 	}
 
