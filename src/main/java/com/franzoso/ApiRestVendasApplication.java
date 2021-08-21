@@ -28,7 +28,7 @@ public class ApiRestVendasApplication implements CommandLineRunner {
 		Pagamento p1 = new Pagamento(null, 10, 5500.00);
 		Produto pr1 = new Produto(null, "carro",55000.00);
 		//pagamentooRepository.save(p1);
-		//produtoRepository.save(pr1);
+		//produtoRepository.save(pr1);     
 		
 	}
 
